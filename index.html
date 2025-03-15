@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">0</div>
+        <div class="grid grid-cols-5 gap-2">
+            <button class="button text-gray-400" onclick="handleButtonClick('MC')">MC</button>
+            <button class="button text-gray-400" onclick="handleButtonClick('MR')">MR</button>
+            <button class="button" onclick="handleButtonClick('M+')">M+</button>
+            <button class="button" onclick="handleButtonClick('M-')">M-</button>
+            <button class="button" onclick="handleButtonClick('MS')">MS</button>
+            <button class="button" onclick="handleButtonClick('%')">%</button>
+            <button class="button" onclick="handleButtonClick('CE')">CE</button>
+            <button class="button" onclick="handleButtonClick('C')">C</button>
+            <button class="button" onclick="handleButtonClick('backspace')"><i class="fas fa-backspace"></i></button>
+            <button class="button operator" onclick="handleButtonClick('÷')">÷</button>
+            <button class="button" onclick="handleButtonClick('1/x')">1/x</button>
+            <button class="button" onclick="handleButtonClick('x²')">x²</button>
+            <button class="button" onclick="handleButtonClick('²√x')">²√x</button>
+            <button class="button operator" onclick="handleButtonClick('×')">×</button>
+            <button class="button" onclick="handleButtonClick('7')">7</button>
+            <button class="button" onclick="handleButtonClick('8')">8</button>
+            <button class="button" onclick="handleButtonClick('9')">9</button>
+            <button class="button operator" onclick="handleButtonClick('-')">−</button>
+            <button class="button" onclick="handleButtonClick('4')">4</button>
+            <button class="button" onclick="handleButtonClick('5')">5</button>
+            <button class="button" onclick="handleButtonClick('6')">6</button>
+            <button class="button operator" onclick="handleButtonClick('+')">+</button>
+            <button class="button" onclick="handleButtonClick('1')">1</button>
+            <button class="button" onclick="handleButtonClick('2')">2</button>
+            <button class="button" onclick="handleButtonClick('3')">3</button>
+            <button class="button equal col-span-2" onclick="handleButtonClick('=')">=</button>
+            <button class="button" onclick="handleButtonClick('+/−')">+/−</button>
+            <button class="button" onclick="handleButtonClick('0')">0</button>
+            <button class="button" onclick="handleButtonClick('.')">.</button>
+        </div>
+    </div>
+</body>
+</html>
